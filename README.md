@@ -47,7 +47,7 @@ Le dossier `localisation2` doit contenir :
   - `date` (DATETIME)
   - `imei` (VARCHAR)
 
-## 🛠 Installation & Test
+##  Installation & Test
 1. Importez la base de données via phpMyAdmin.
 2. Placez les fichiers PHP dans `www/localisation2/` ou `htdocs/localisation2/`.
 3. Désactivez le **Pare-feu Windows** ou autorisez le port 80.
