@@ -2,14 +2,14 @@
 
 Ce projet permet de récupérer la position GPS d'un smartphone Android, de l'envoyer en temps réel à un serveur PHP via la bibliothèque Volley, et de l'afficher sur une carte OpenStreetMap.
 
-## 🚀 Fonctionnalités
+##  Fonctionnalités
 - Récupération de la Latitude, Longitude, Altitude et Précision.
 - Envoi automatique des données au serveur toutes les 5 secondes (si mouvement).
 - Stockage en base de données MySQL.
 - Affichage de la position sur une carte OpenStreetMap (OSMDroid).
 - Gestion des permissions Runtime (Android 6.0+).
 
-## 📱 Partie Android
+##  Partie Android
 ### Dépendances (build.gradle)
 - **Volley** : Pour les requêtes HTTP POST vers le serveur.
 - **OSMDroid** : Pour l'affichage de la carte OpenStreetMap.
@@ -28,7 +28,7 @@ L'application requiert :
 - `ACCESS_COARSE_LOCATION`
 - `WRITE_EXTERNAL_STORAGE` (pour le cache de la carte)
 
-## 🌐 Partie PHP / MySQL
+##  Partie PHP / MySQL
 ### Structure des dossiers (WAMP/XAMPP)
 Le dossier `localisation2` doit contenir :
 - `classe/Position.php` : Entité Position.
